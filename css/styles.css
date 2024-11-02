@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./fonts/Helvetica.woff2') format('woff2'), /* For modern browsers */
+         url('./fonts/Helvetica.woff') format('woff'),    /* Fallback */
+         url('./fonts/Helvetica.ttf') format('truetype'); /* Fallback */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+}
+
